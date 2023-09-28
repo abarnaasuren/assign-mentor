@@ -6,7 +6,7 @@ This document provides essential information about the Assign Mentor API project
 
 ## Render URL
 
-- **URL:** https://assign-mentor-sqcw.onrender.com
+- **URL:** https://mentor-vcln.onrender.com
 
 ## API Endpoints
 
@@ -14,7 +14,7 @@ This document provides essential information about the Assign Mentor API project
 
 This API endpoint allows you to create a new mentor with student details.
 
-**URL:** https://assign-mentor-sqcw.onrender.com/mentor
+**URL:**https://mentor-vcln.onrender.com/mentor
 
 **Method:** POST
 
@@ -22,7 +22,7 @@ This API endpoint allows you to create a new mentor with student details.
 
 This API endpoint allows you to create a new student with mentor details.
 
-**URL:** https://assign-mentor-sqcw.onrender.com/student
+**URL:** https://mentor-vcln.onrender.com/student
 
 **Method:** POST
 
@@ -30,7 +30,7 @@ This API endpoint allows you to create a new student with mentor details.
 
 This API endpoint allows you to assign a new students to mentor.
 
-**URL:** https://assign-mentor-sqcw.onrender.com/mentor/:mentorId/assign
+**URL:**https://mentor-vcln.onrender.com/mentor/:mentorId/assign
 
 **Method:** POST
 
@@ -38,15 +38,14 @@ This API endpoint allows you to assign a new students to mentor.
 
 This API endpoint allows you to assign or change a new mentor to student.
 
-**URL:** https://assign-mentor-sqcw.onrender.com/student/:studentId/assignMentor/:mentorId
-
+**URL:** 
 **Method:** PUT
 
 ### List all students for a particular mentor
 
 This API endpoint retrieves a list of all students for a particular mentor.
 
-**URL:** https://assign-mentor-sqcw.onrender.com/mentor/:mentorId/students
+**URL:** https://mentor-vcln.onrender.com/student/:studentId/assignMentor/:mentorId
 
 **Method:** GET
 
@@ -54,20 +53,19 @@ This API endpoint retrieves a list of all students for a particular mentor.
 
 This API endpoint retrieves a list of all previously assigned mentor for a particular student.
 
-**URL:** https://assign-mentor-sqcw.onrender.com/student/:studentId/pMentor
+**URL:** https://mentor-vcln.onrender.com/mentor/:mentorId/students
 
 **Method:** GET
 
 ## GitHub Repository
 
-- **URL:** [https://github.com/anandhakumarmca/assign-mentor.git](https://github.com/anandhakumarmca/assign-mentor.git)
+- **URL:** [https://github.com/abarnaasuren/assign-mentor.git]
 
 ## API Documentation
 
-- **URL:** [https://documenter.getpostman.com/view/593035/2s9YCBuUv7](https://documenter.getpostman.com/view/593035/2s9YCBuUv7)
+- **URL:** [https://documenter.getpostman.com/view/26732445/2s9YJZ4QTy]
 
 ## Last Committed Hash ID
 
-- **Hash ID:** f9339b8f38fb2ef2ce7fc2c75ad525987defc93c
-
+- **Hash ID:** fbec7f0625bbb12d52fbdbd51b25ed100c45b3e5
 ----------------------------------------------------------------------------------------------------------------------------------
